@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'VponAd-iOS-Banner-Mediation'
+  s.name         = 'AdMobMediationAdapterVponSDK'
   s.version      = '4.1.0'
   s.license      =  {:type => 'Copyright', :text => 'Vpon Incorporated.'}
   s.homepage     = 'http://www.vpon.com'
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
                     'StoreKit' ,'SystemConfiguration' ,'UIKit'
   s.library      = 'AdOn'
   s.xcconfig = {
-    "LIBRARY_SEARCH_PATHS" => '"$(PODS_ROOT)/VponAd-iOS-Banner-Mediation/VponAd-iOS-Banner-Mediation/Classes/VponAd/"'
+    "LIBRARY_SEARCH_PATHS" => '"$(PODS_ROOT)/AdMobMediationAdapterVponSDK/VponAd-iOS-Banner-Mediation/Classes/VponAd/"'
   }
 
   s.requires_arc = false
