@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
                     'EventKit', 'Foundation', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'QuartzCore' ,'Security' ,
                     'StoreKit' ,'SystemConfiguration' ,'UIKit'
   s.library      = 'AdOn'
+  s.vendored_libraries = "VponAd-iOS-Banner-Mediation/Classes/VponAd/libAdOn.a"
   s.xcconfig = {
     "LIBRARY_SEARCH_PATHS" => '"$(PODS_ROOT)/AdMobMediationAdapterVponSDK/VponAd-iOS-Banner-Mediation/Classes/VponAd/"'
   }
