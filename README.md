@@ -12,7 +12,7 @@ http://wiki.vpon.com/	(sdk wiki)
 
 ## Install
 ``` cocoapods
-pod 'AdMobMediationAdapterVponSDK', :podspec => 'https://raw2.github.com/dearhui/AdMobMediationAdapterVponSDK/master/AdMobMediationAdapterVponSDK.podspec'
+pod 'AdMobMediationAdapterVponSDK', :git => 'https://github.com/dearhui/AdMobMediationAdapterVponSDK.git'
 ```
 
 ## AdMobMediation Setting
